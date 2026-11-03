@@ -248,7 +248,7 @@ function startGUI () {
 
     let twitter = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'twitter');
-        window.open('https://twitter.com/PavelDoGreat');
+        window.open('https://twitter.com/');
     } }, 'fun').name('Twitter');
     twitter.__li.className = 'cr function bigFont';
     twitter.__li.style.borderLeft = '3px solid #8C8C8C';
@@ -258,7 +258,7 @@ function startGUI () {
 
     let discord = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'discord');
-        window.open('https://discordapp.com/invite/CeqZDDE');
+        window.open('https://discordapp.com/');
     } }, 'fun').name('Discord');
     discord.__li.className = 'cr function bigFont';
     discord.__li.style.borderLeft = '3px solid #8C8C8C';
